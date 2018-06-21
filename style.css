@@ -1,0 +1,65 @@
+/* This pen uses weather icons from https://erikflowers.github.io/weather-icons/ */
+
+body {
+  min-height: 100vh;
+  padding: 0 20px;
+  color: white;
+  font-size: 40px;
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  /* Default background represents 'night' */
+  background-image: linear-gradient(
+    #20202f 0%,
+    #273550 35%,
+    #416081 100%
+  );
+}
+
+/* change color of links */
+a,
+a:visited,
+a:hover {
+  color: white;
+}
+
+/* change size of weather icon */
+#weather-icon {
+  font-size: 3em;
+}
+
+/* classes for different backgrounds that change depending on the time of day */
+.day {
+  background-image: linear-gradient(
+    #34a4ca 0%,
+    #59d7dd 40%,
+    #a8f2f0 80%,
+    #d0f8ef 95%,
+    #d6f6e1 100%
+  );
+}
+
+.dusk {
+  background-image: linear-gradient(
+    #20202f 0%,
+    #273550 16%,
+    #416081 41%,
+    #adacb2 78%,
+    #eac3a2 100%
+  );
+}
+
+.dawn {
+  background-image: linear-gradient(
+    #6bafd2 0%,
+    #a4c8dc 56%,
+    #d6cbca 80%,
+    #eabc96 90%,
+    #db8876 100%
+  );
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
