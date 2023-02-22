@@ -7,8 +7,8 @@ body {
   font-size: 40px;
   font-family: "Vidaloka", serif;
   text-align: center;
-  /* Default background represents 'night' */
-  background-image: linear-gradient(#20202f 0%,
+  background-image: linear-gradient(
+    #20202f 0%,
     #273550 35%,
     #416081 100%);
 }
@@ -27,7 +27,8 @@ a:hover {
 
 /* classes for different backgrounds that change depending on the time of day */
 .day {
-  background-image: linear-gradient(#34a4ca 0%,
+  background-image: linear-gradient(
+    #34a4ca 0%,
     #59d7dd 40%,
     #a8f2f0 80%,
     #d0f8ef 95%,
@@ -35,7 +36,8 @@ a:hover {
 }
 
 .dusk {
-  background-image: linear-gradient(#20202f 0%,
+  background-image: linear-gradient(
+    #20202f 0%,
     #273550 16%,
     #416081 41%,
     #adacb2 78%,
@@ -43,7 +45,8 @@ a:hover {
 }
 
 .dawn {
-  background-image: linear-gradient(#6bafd2 0%,
+  background-image: linear-gradient(
+    #6bafd2 0%,
     #a4c8dc 56%,
     #d6cbca 80%,
     #eabc96 90%,
