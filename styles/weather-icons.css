@@ -30,7 +30,7 @@
 
 .wi {
   display: inline-block;
-  font-family: 'weathericons';
+  font-family: 'weathericons', serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
