@@ -7,10 +7,12 @@ body {
   font-size: 40px;
   font-family: "Vidaloka", serif;
   text-align: center;
-  background-image: linear-gradient(
-    #20202f 0%,
-    #273550 35%,
-    #416081 100%);
+  background-image:
+    linear-gradient(
+      #20202f 0%,
+      #273550 35%,
+      #416081 100%
+    );
 }
 
 /* change color of links */
